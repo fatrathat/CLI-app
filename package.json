@@ -1,0 +1,25 @@
+{
+  "name": "CLI-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatrathat/CLI-app.git"
+  },
+  "keywords": [],
+  "author": "'Xarlock' <'eugene.multan@gmail.com'>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatrathat/CLI-app/issues"
+  },
+  "homepage": "https://github.com/fatrathat/CLI-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
