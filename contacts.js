@@ -4,7 +4,7 @@ const { nanoid } = require("nanoid");
 const contactsPath = path.join(`${__dirname}/db/contacts.json`);
 
 const updateContacts = async (contacts) =>
-  await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
+  await fs.writeFile(contactsPath, JSON.stringify(contacts));
 
 const getContacts = async () => {
   const data = await fs.readFile(contactsPath);
